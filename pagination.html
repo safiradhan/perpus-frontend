@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagination User</title>
+
+    <link rel="stylesheet" href="pagination.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
+</head>
+<body style="background-color: rgb(142, 102, 182);">
+    <main>
+        <div class="list" id="list"></div>
+        <div class="pagenumbers" id="pagination"></div>
+        <section id="chevron_right" class="container center-align">
+            <!-- <header> -->
+                <!-- <h2>Tabel User</h2> -->
+            <!-- </header> -->
+            <table id="chevron_right" class="highlight centered">
+                <thead>
+                    <th>User ID</th>
+                    <th>name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </thead>
+                <tbody id="crypto-table-body">
+
+                </tbody>
+            </table>
+            <footer id="pagination">
+                <ul class="pagination">
+                    <li class="disabled arrow-left"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                    <li class="active"><a>1</a></li>
+                    <li class="waves-effect"><a>2</a></li>
+                    <li class="waves-effect"><a>3</a></li>
+                    <li class="waves-effect"><a>4</a></li>
+                    <li class="waves-effect"><a>5</a></li>
+                    <li class="waves-effect arrow-right"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                </ul>
+            </footer>
+        </section>
+    </main>
+
+    <script src="pagination.js"></script>
+</body>
+</html>
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <title>User</title>
+
+    <link rol="stylesheet" href="pagination.css" />
+</head>
+<body>
+    <header>
+        <h1>Users</h1>
+    </header>
+    <main>
+        <div class="list" id="list"></div>
+        <div class="pagenumbers" id="pagination"></div>
+    </main>
+    <script src="pagination.js"></script>
+</body>
+</html> -->
